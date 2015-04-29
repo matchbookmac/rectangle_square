@@ -13,4 +13,11 @@ describe('Rectangle') do
       expect(test_rectangle.square?()).to(eq(true))
     end
   end
+
+  describe('#area') do
+    it('will return the area of the rectangle') do
+      test_rectangle = Rectangle.new(40, 30)
+      expect(test_rectangle.area()).to(eq(1200))
+    end
+  end
 end

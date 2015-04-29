@@ -6,4 +6,8 @@ class Cube
   define_method(:volume) do
     @square.length().**3
   end
+
+  define_method(:surface_area) do
+    @square.area().*(6)
+  end
 end

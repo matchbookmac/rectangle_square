@@ -1,0 +1,14 @@
+<h1>Your results:</h1>
+
+<h3>This is a
+  <% if @square.square?() %>
+    square!
+  <% else %>
+    rectangle.
+  <% end %>
+</h3>
+<h3><% if @square.square?() %> The surface area of this cube is: <%= @cube.surface_area() %>
+<br>
+The volume of this cube is: <%= @cube.volume() %>
+<% end %>
+</h3>
