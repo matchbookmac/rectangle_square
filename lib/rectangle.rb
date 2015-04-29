@@ -7,4 +7,8 @@ class Rectangle
   define_method(:square?) do
     @length == @width
   end
+
+  define_method(:length) do
+    @length
+  end
 end
